@@ -325,7 +325,7 @@ class _GeneratedUIScreenState extends State<GeneratedUIScreen> {
   }
 
   Future<Map<String, dynamic>> fetchGeneratedUI(String prompt) async {
-    const String apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite-preview-02-05:generateContent?key=AIzaSyAn7GwRev5sEBANdbbsrfD05sI2v3BcJKM";
+    const String apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite-preview-02-05:generateContent?key=key";
 
     final enhancedPrompt = '''
     You are a modern Flutter UI generator specializing in creating beautiful, production-ready user interfaces. ${_imageBytes != null ? "I've uploaded an image as reference. Create a pixel-perfect UI that precisely matches the style, layout, and aesthetics of the uploaded image." : ""} Generate a complete Flutter widget tree as JSON that can be parsed into Flutter widgets.
